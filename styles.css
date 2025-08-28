@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #b9b9b9;
+}
+
+#update-name-container{
+    display: none;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Math Quiz</title>
+</head>
+
+<body>
+    <header>
+        <h1>Simple Math quiz</h1>
+        <h2>Player: <span id="player-name"></span></h2>
+        <button id="update-name-btn">Update name</button>
+        <div id="update-name-container">
+            <input id="update-name-field" type="text">
+            <button id="save-name-btn">Save</button>
+        </div>
+        <h3>Score: <span id="player-score"></span></h3>
+    </header>
+    <div id="quiz-container">
+        <div class="instructions">
+            <p>Answer all questions</p>
+        </div>
+        <div id="quiz">
+            <ol>
+                <li class="question">What is the result of 5*5?</li>
+                <button class="answer">20</button>
+                <button class="answer">25</button>
+                <button class="answer">30</button>
+                <button class="answer">35</button>
+
+            </ol>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
