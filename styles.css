@@ -10,3 +10,27 @@ body{
 #update-name-container{
     display: none;
 }
+
+.question-box{
+    width: 100%;
+    padding:20px;
+}
+.answer-box{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    margin: 10px 0px;
+}
+button{
+    padding: 8px;
+    margin: 4px 10px;
+    max-width: 300px;
+}
+header{
+  text-align: center;
+}
+#quiz-container{
+   display: flex;
+   justify-content: center;
+   min-width: 500px;
+}
